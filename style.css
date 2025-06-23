@@ -1,7 +1,7 @@
 /* Este repositório base foi criado para te ajudar caso você não saiba como começar. Lembre-se de que o portfólio é a sua carta de apresentação e você deve dar a sua cara. Por isso, convidamos você a personalizá-lo de acordo com o seu estilo e preferências; não se limite apenas ao layout proposto no Figma. */
 :root {
-    --cor-de-fundo: #eee9c7;
-    --cor-de-fundo-menu: #ffffff;
+    --cor-de-fundo: #E0B423;
+    --cor-de-fundo-menu: #CB6D51;
     --cor-do-link: #190a12;
 }
 
@@ -65,8 +65,8 @@ a {
 }
 
 .apresentacao_subtitulo{
-    font-size:22px;
-    color: #464646;
+    font: size 1.5rem;
+    color: #CB6D51;
 }
 
 
@@ -84,21 +84,18 @@ a {
 /* ------------------------------ Seção Sobre mim ---   -----------------------------*/
 .sobre-mim{
     padding: 42px;
-    background-color:#cec7b6 ;
+    background-color:#CB6D51 ;
     margin: 64px;
 }
 
 
 
 .sobre-mim__titulo{
-    font-size: 32px;
+    font-size: 60px;
 }
 
-
-.sobre-mim__assinatura{
-    height: 52px;
-    width:140px ;
-    
+.sobre-mim__texto{
+    font-size: 1.5rem;
 }
 /*------------------------------ Seção de Habilidades ------------------------------*/
 .habilidades{
@@ -121,7 +118,11 @@ a {
    margin:32px ;
    
 }
+.habilidades__icone{
+    width: 60px;
+   
 
+}
 .habilidades__elemento{
     background-color:#FFFFFF;
     padding: 62px 0 16px 16px;
@@ -130,9 +131,13 @@ a {
 
 .elemento{
     background-color:#FFFFFF;
-    padding: 62px 0 16px 16px;
-    width: 136px;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding:16px;
+    border-radius: 8px;
+    }
 
 .elemento p {
     margin: 0;  
@@ -157,6 +162,9 @@ a {
     justify-content: space-between;
     margin:32px ;
 }
+.hobbies__icone{
+     width: 60px;
+}
 
 .hobbies__elemento{
     background-color:#FFFFFF ;
@@ -166,9 +174,9 @@ a {
 
 /*------------------------------ Seção de Formação --------------------------------*/
 .formacao{
-    padding: 42px;
+    padding:30px;
     background-color:#cec7b6 ;
-    margin: 64px;
+    margin: 50px;
     }
 
 .formacao__titulo{
@@ -179,8 +187,8 @@ a {
 }
 
 .formacao__icone{
-    height:286px ;
-    width: 386px;
+    height:200px ;
+    width: 300px;
     object-fit: cover; 
     
 }
@@ -234,12 +242,12 @@ justify-content: space-around;
 
 .botao__primario{
 border: 0;
-background-color: #b3c9c1;
+background-color: #A7D9D9;
 }
 
 .botao__secundario{
     border: 1px solid white;
-    background-color: #b3c9c1;
+    background-color: #A7D9D9;
 }
 
 .botao{
@@ -251,41 +259,18 @@ background-color: #b3c9c1;
 .empresas li{
     list-style:inside;
 }
-/*------------------------------ Seção de Contato ---------------------------------*/
 
-.contato{
-    margin: 64px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.projetos__nome{
+    font-size: 1.5rem;
 }
 
-.contato__titulo{
-    font-size: 32px;
-    color: #464646;
-    font-weight: bold;
+.projetos__descricao{
+    font-size: 1.5rem;
 }
 
-.contato__formulario{
-    display: flex;
-    flex-direction: column;
-    gap:32px ;
-    width:656px ;
-    border-radius: 4px;
+.projetos__conteiner li{
+    font-size: 1.5rem;
 }
-
-.contato__campo{
-    padding: 16px 4px;
-    border: 0;
-}
-
-.contato__campo--textarea{
-    height: 56px;
-    
-
-}
-
     
 /* ------------------------------ Responsividade ---------------------------------------*/
 
